@@ -1,0 +1,66 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e6e6e6;
+}
+
+.contact{
+   width: 100%;
+   max-width: 920px;
+   background-color: #ffffff;
+   border-radius: 5px;
+   padding: 80px 55px;
+}
+.contact-title{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 60px;
+    font-weight: 800;
+}
+
+.form-group{
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    padding: 10px 30px 10px 20px;
+}
+
+.form-group-2 {
+    justify-content: space-between;
+}
+.form-input{
+    font-family: 'Open Sans',sans-serif;
+    color: #555555;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding-right: 15px;
+    line-height: 1.2;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    border: 0;
+}
+
+.form-input :focus{
+    background-color: white;
+}
+label {
+    color: #393939;
+    font-size: 10px;
+    line-height: 1.5;
+}
+.form-submit{
+
+}
+.fa-solid{
+
+}
+.fa-arrow-right{
+
+}
