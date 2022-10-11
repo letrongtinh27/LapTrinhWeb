@@ -110,40 +110,12 @@ input[type="radio"]:checked + label, input:checked + label:before, select:focus,
     border-color: #64ac15;
 }
 .input-group3 {
-    display: flex;
+    display: block;
 }
 .input-group3 > input{
     display: none;
 }
 
 .input-group3 > label{
-    text-align: center;
     width: 50%;
-    height: 53 px;
-    border: 1px solid #e5e5e5;
-    padding: 10px;
-}
-
-.icon-credit {
-    top: 610px;
-}
-
-.icon-user2 {
-    top: 668px;
-}
-
-.input_group {
-    display: flex;
-}
-
-.input_group > input {
-    margin: 17px;
-    margin-top: -10px;
-    width: 15px;
-}
-
-.input_group > label {
-    
-    color: lightgrey;
-    font-size: 14px;
 }

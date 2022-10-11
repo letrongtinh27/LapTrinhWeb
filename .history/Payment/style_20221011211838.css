@@ -28,7 +28,7 @@ body {
     position: relative;
     
 }
-.form-item, .item-input > input {
+.form-item, .form-group2 .form-item .col-third {
     width: 100%;
     padding: 10px;
     line-height: 1.4;
@@ -46,6 +46,12 @@ body {
     margin: 0 auto;
 }
 
+input{
+    padding-left: 44px;
+    border: 0;
+    outline: none;
+    background-color: #f9f9f9;
+    margin: 0 auto;
 
 .icon {
     display: block;
@@ -75,75 +81,28 @@ body {
     height: 125px;
 }
 
-.group2 {
+.group-left{
     padding-right: 10px;
-    float: left;
     width: 50%;
+    float: left;
 }
-.input-group{
-    margin-bottom: 10px;
+.group-right{
+    width: 50%;
+    float: left;
+
 }
-.item-input {
+.form-group2 .form-item .col-third{
     padding-right: 10px;
     float: left;
     width: 33%;
-    height: 53px;
-}
-.radio-input {
-    display: none;
 }
 
-.input-group > label {
-    display: inline-block;
-    width: 50%;
-    height: 45px;
-    padding-top: 10px;
-    text-align: center;
-    float: left;
-    border-radius: 0; 
-    border: 1px solid black;
-}
+.card{
 
-input[type="radio"]:checked + label, input:checked + label:before, select:focus, select:active {
-    background-color: #7ed321;
-    color: #fff;
-    border-color: #64ac15;
 }
-.input-group3 {
-    display: flex;
-}
-.input-group3 > input{
-    display: none;
-}
+.right{
 
-.input-group3 > label{
-    text-align: center;
-    width: 50%;
-    height: 53 px;
-    border: 1px solid #e5e5e5;
-    padding: 10px;
 }
+.left{
 
-.icon-credit {
-    top: 610px;
-}
-
-.icon-user2 {
-    top: 668px;
-}
-
-.input_group {
-    display: flex;
-}
-
-.input_group > input {
-    margin: 17px;
-    margin-top: -10px;
-    width: 15px;
-}
-
-.input_group > label {
-    
-    color: lightgrey;
-    font-size: 14px;
 }

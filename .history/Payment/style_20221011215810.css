@@ -124,26 +124,6 @@ input[type="radio"]:checked + label, input:checked + label:before, select:focus,
     padding: 10px;
 }
 
-.icon-credit {
+.icon-user {
     top: 610px;
-}
-
-.icon-user2 {
-    top: 668px;
-}
-
-.input_group {
-    display: flex;
-}
-
-.input_group > input {
-    margin: 17px;
-    margin-top: -10px;
-    width: 15px;
-}
-
-.input_group > label {
-    
-    color: lightgrey;
-    font-size: 14px;
 }

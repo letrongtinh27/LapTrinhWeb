@@ -92,12 +92,14 @@ body {
 .radio-input {
     display: none;
 }
-
+.input-group{
+    
+}
 .input-group > label {
     display: inline-block;
     width: 50%;
-    height: 45px;
-    padding-top: 10px;
+    height: 53px;
+    padding-top: 15px;
     text-align: center;
     float: left;
     border-radius: 0; 
@@ -109,41 +111,12 @@ input[type="radio"]:checked + label, input:checked + label:before, select:focus,
     color: #fff;
     border-color: #64ac15;
 }
-.input-group3 {
-    display: flex;
-}
-.input-group3 > input{
-    display: none;
-}
+.card{
 
-.input-group3 > label{
-    text-align: center;
-    width: 50%;
-    height: 53 px;
-    border: 1px solid #e5e5e5;
-    padding: 10px;
 }
+.right{
 
-.icon-credit {
-    top: 610px;
 }
+.left{
 
-.icon-user2 {
-    top: 668px;
-}
-
-.input_group {
-    display: flex;
-}
-
-.input_group > input {
-    margin: 17px;
-    margin-top: -10px;
-    width: 15px;
-}
-
-.input_group > label {
-    
-    color: lightgrey;
-    font-size: 14px;
 }

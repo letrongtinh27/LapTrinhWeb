@@ -135,15 +135,3 @@ input[type="radio"]:checked + label, input:checked + label:before, select:focus,
 .input_group {
     display: flex;
 }
-
-.input_group > input {
-    margin: 17px;
-    margin-top: -10px;
-    width: 15px;
-}
-
-.input_group > label {
-    
-    color: lightgrey;
-    font-size: 14px;
-}

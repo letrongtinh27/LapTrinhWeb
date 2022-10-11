@@ -1,0 +1,76 @@
+/* https://codepen.io/josecarneiro/pen/Kwbapp @import: "libs/base.less"; */
+body {
+    font-family: 'Open Sans',sans-serif !important;
+    background-color: lightgray !important;
+}
+.payment{
+    width: 100%;
+    max-width: 570px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    padding: 35px 45px;
+}
+.form-payment{
+    font-family: 'Open Sans',sans-serif;
+}
+.title{
+    color: #7ed321;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 25px 0px;
+}
+.form-group{
+
+}
+.form-item{
+
+}
+.icon{
+
+}
+.fa-solid{
+
+}
+.fa-user{
+
+}
+.fa-envelope{
+
+}
+.fa-lock{
+
+}
+.form-group2{
+
+}
+.group-left{
+
+}
+.group-right{
+
+}
+.card{
+
+}
+.fa-brands{
+
+}
+.fa-cc-visa{
+
+}
+.fa-cc-paypal{
+
+}
+.fa-credit-card{
+
+}
+.right{
+
+}
+.left{
+
+}

@@ -1,0 +1,106 @@
+/* https://codepen.io/josecarneiro/pen/Kwbapp @import: "libs/base.less"; */
+body {
+    font-family: 'Open Sans',sans-serif !important;
+    background-color: lightgray !important;
+}
+.payment{
+    width: 100%;
+    max-width: 570px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 35px 45px;
+}
+.form-payment{
+    font-family: 'Open Sans',sans-serif;
+}
+.title{
+    color: #7ed321;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 25px 0px;
+}
+.form-group{
+    position: relative;
+    
+}
+.form-item {
+    width: 100%;
+    padding: 10px;
+    line-height: 1.4;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.form-item > input{
+    padding-left: 44px;
+    border: 0;
+    outline: none;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+}
+.icon-name{
+    display: block;
+    position: absolute;
+    top: 12px;
+    width: 34px;
+    text-align: center;
+    border-right: 1px solid #e5e5e5;
+}
+
+.icon-email{
+    display: block;
+    position: absolute;
+    top: 69pxpx;
+    width: 34px;
+    text-align: center;
+    border-right: 1px solid #e5e5e5;
+}
+.fa-solid{
+
+}
+.fa-user{
+
+}
+.fa-envelope{
+
+}
+.fa-lock{
+
+}
+.form-group2{
+
+}
+.group-left{
+
+}
+.group-right{
+
+}
+.card{
+
+}
+.fa-brands{
+
+}
+.fa-cc-visa{
+
+}
+.fa-cc-paypal{
+
+}
+.fa-credit-card{
+
+}
+.right{
+
+}
+.left{
+
+}
