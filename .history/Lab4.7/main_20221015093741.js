@@ -17,13 +17,5 @@ for(i = 0 ; i< btn_list.length; i++) {
             e.target.className = "hident";
             console.log(e.target.className = "hident");
         }
-        else {
-            var result = confirm("Bạn đã thua");
-            if (result == true) {
-                window.location.reload();
-            } else {
-                alert("Bạn không xóa");
-            }
-        }
     }
 }

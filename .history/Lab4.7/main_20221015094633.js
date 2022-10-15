@@ -18,7 +18,7 @@ for(i = 0 ; i< btn_list.length; i++) {
             console.log(e.target.className = "hident");
         }
         else {
-            var result = confirm("Bạn đã thua");
+            var result = confirm("Bạn đã");
             if (result == true) {
                 window.location.reload();
             } else {

@@ -7,27 +7,22 @@ body {
 .container {
     display: flex;
     width: 100%;
-    max-width: 960px;
-    height: 300px;
+    max-width: 940px;
+    height: 90vh;
     margin: 50px auto;
     flex-direction: row;
-    flex-wrap:  wrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+    background-color: #fff;
 }
 
 .btn {
-    display: block;
-    width: auto;
-    height: 150px;
-    background-color: #edf6f9;
+    width: 1.5%;
+    height: auto;
 }
 
 .btn:hover {
     background-color: #ffddd2;
-}
-
-.hident {
-    visibility: hidden;
 }

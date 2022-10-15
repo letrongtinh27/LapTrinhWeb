@@ -18,9 +18,9 @@ for(i = 0 ; i< btn_list.length; i++) {
             console.log(e.target.className = "hident");
         }
         else {
-            var result = confirm("Bạn đã thua");
+            var result = confirm("Bạn có muốn xóa bản ghi này?");
             if (result == true) {
-                window.location.reload();
+                alert("Bạn đồng ý xóa");
             } else {
                 alert("Bạn không xóa");
             }

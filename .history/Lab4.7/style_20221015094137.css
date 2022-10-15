@@ -9,12 +9,13 @@ body {
     width: 100%;
     max-width: 960px;
     height: 300px;
-    margin: 50px auto;
+    margin: 25px auto;
     flex-direction: row;
-    flex-wrap:  wrap;
+    flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
+    background-color: #fff;
 }
 
 .btn {
